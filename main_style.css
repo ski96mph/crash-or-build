@@ -1,0 +1,130 @@
+/*Style_Sheet_Main*/
+/*This style sheet includes the body, header, navbar, and footer (WIP)*/
+        /*Style-Body*/
+
+        body {
+            font-family: "Encode Sans Expanded", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #97c0ef;
+            background-size: cover;
+            background-position:center;
+            position:absolute;
+
+            overflow-x:hidden;
+            overflow-y:scroll;
+            width:100%;
+
+            display:flex;
+            flex-direction: column;
+            min-height:100vh;
+        }
+
+        /* Content Style */
+            .content {
+                position: relative;
+                color: white;
+                text-align: center;
+                padding: 10px;
+                flex:1;
+                z-index:2;
+            }
+
+        /*Style-Header*/
+        h1 {
+            background-color: #97c0ef;
+            font-size: 10vw;
+            font-weight: 100;
+            color: white; /*Text Color*/
+            text-align: center;
+            padding: 0;
+            margin-block: 0.1em;
+
+            z-index: 2;
+        }
+
+        h2 {
+            background-color: #97c0ef;
+            font-size: 3vw;
+            font-weight: 100;
+            color: white; /*Text Color*/
+            text-align: center;
+            padding: 0;
+            margin-block: 0.25em;
+
+            z-index: 2;
+        }
+        /*Style-Navbar*/
+        nav {
+            text-align: center;
+            background-color: #0050ab;
+            font-size:20px;
+            padding: 10px 0;
+
+            z-index: 2;
+        }
+            /*Navbar Hover Settings*/
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                padding: 10px 20px;
+                margin: 0 10px;
+            }
+                nav a:hover {
+                    background-color: #4089db;
+                }
+
+        .container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .container img {
+            max-width: 25%;
+            min-width: 300px;
+            height: auto;
+            /* Maintain aspect ratio */
+            flex: 1 1 auto;
+            /* Allow images to grow and shrink */
+            object-fit: cover;
+        }
+
+
+        /* Style-Footer */
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height:35px;
+            background-color: #0050ab;
+            color: white;
+            font-size:20px;
+            text-align: center;
+            padding:10px 0;
+            z-index: 2;
+        }
+            .site-footer { 
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        z-index: 2;
+        }
+        .social_icons {
+        margin-top: 0px; /* Adjust the margin as needed */
+        }
+
+        .social_icons a {
+            margin: 0 10px;
+        }
+
+        .social_icons img {
+            width: 30px; /* Adjust the width as needed */
+            height: 30px; /* Adjust the height as needed */
+        }
