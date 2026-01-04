@@ -196,7 +196,7 @@ img{
 /* Media Query for Smaller Screens */
   @media (max-width: 768px) {
             .block {
-                width: 300px; /* width on mobile */
+                width: 400px; /* width on mobile */
                 height:100%;
             }
             .box{
@@ -217,11 +217,11 @@ img{
             }
             
             img{
-            	width:250px;
+            	width:340px;
             	height:auto;
             }
             .img2{
-                width:250px;
+                width:340px;
             	height:auto;
             }
             .back_button {
